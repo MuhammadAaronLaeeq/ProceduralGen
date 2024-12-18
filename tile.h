@@ -15,12 +15,13 @@ class Tile {
     Property Landscape;
     Property Material;
 
+    const char* ChooseStartingTile();
+
     protected:
-    int numberOfTiles;
 
     public:
-    Tile(int x);
-    Tile(const Tile &other);
+    Tile(); //Random Tile
+    Tile(int x_pos, int y_pos); //Tile generation based on pos, if (0,0) then starting pos
     ~Tile();
 
 };

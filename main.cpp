@@ -1,5 +1,5 @@
 #include <iostream>
-#include "algorithm.h"
+#include "tile.h"
 
 using namespace std;
 

@@ -72,8 +72,10 @@ R--> F--> ...
  GRM >= 5
  ```
 
- A method to determine whether two tiles are compatible
+The following is the progression order
+```
+1 2 4
+3 5 7
+6 8 9
 
- Rejected tiles get added to list, which is checked before a new tile is created
- 
- 
+``` 
